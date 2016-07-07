@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-07-04 19:53:51 +0800
-categories: jekyll update
+title:  "3Sum Closest"
+date:   2016-07-07 12:30:00 +0800
+categories: arithmetic
 ---
 开始刷点算法题，代码用swift
 
