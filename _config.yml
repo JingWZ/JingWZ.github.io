@@ -12,7 +12,6 @@ description: > # this means to ignore newlines until "baseurl:"
   I'm a software engineer in iOS, c#, lua, php, try to be a full stacker...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jingwz.github.io" # the base hostname & protocol for your site
-twitter_username: JingWZ
 github_username:  JingWZ
 
 # Build settings
