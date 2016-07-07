@@ -45,6 +45,6 @@ func compute3SumClosest(list:[Int], _ target:Int) -> Int {
 }
 {% endhighlight %}
 
-Check out the [Codes].
+Check out the [Codes][codes].
 
-[codes]: http://jekyllrb.com/docs/home
+[codes]: https://github.com/JingWZ/ArithmeticSorting/tree/master/3SumCloset.playground
