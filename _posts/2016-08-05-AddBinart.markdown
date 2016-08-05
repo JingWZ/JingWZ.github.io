@@ -80,4 +80,4 @@ string addBinary(string a, string b) {
 
 Check out the [Codes][codes1].
 
-[codes]: https://github.com/JingWZ/ArithmeticSorting/tree/master/AddBinaryCPP
+[codes1]: https://github.com/JingWZ/ArithmeticSorting/tree/master/AddBinaryCPP
