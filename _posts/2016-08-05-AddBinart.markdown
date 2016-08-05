@@ -19,14 +19,16 @@ Return "100".
 A:
 二进制数的求和。这题涉及到字符串操作，用swift实在太难弄了（swift的String, characters, index简直呵呵），所以swift版本先转成数字然后做加法。纯字符操作用c++写起来就舒服多了
 
-{% highlight swift %}
-
 ~~// swift version~~
 
 extension String {
+
     subscript (i: Int) -> String {
+    
         return String(self[self.endIndex.advancedBy(-1-i)])
+        
     }
+    
 }
 
 func addBinary(a: String, _ b: String) -> String {
@@ -52,8 +54,6 @@ func addBinary(a: String, _ b: String) -> String {
     
     return String(res)
 }
-
-{% endhighlight %}
 
 Check out the [Swift Codes][codes].
 
