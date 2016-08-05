@@ -21,7 +21,8 @@ A:
 
 {% highlight swift %}
 
-// swift version
+~~// swift version~~
+
 extension String {
     subscript (i: Int) -> String {
         return String(self[self.endIndex.advancedBy(-1-i)])
