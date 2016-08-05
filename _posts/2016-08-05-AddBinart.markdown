@@ -54,7 +54,7 @@ func addBinary(a: String, _ b: String) -> String {
 
 {% endhighlight %}
 
-Check out the [Codes][codes].
+Check out the [Swift Codes][codes].
 
 [codes]: https://github.com/JingWZ/ArithmeticSorting/tree/master/AddBinary.playground
 
@@ -78,6 +78,6 @@ string addBinary(string a, string b) {
 
 {% endhighlight %}
 
-Check out the [Codes][codes1].
+Check out the [C++ Codes][codes1].
 
 [codes1]: https://github.com/JingWZ/ArithmeticSorting/tree/master/AddBinaryCPP
