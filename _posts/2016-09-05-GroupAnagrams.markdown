@@ -27,6 +27,14 @@ A:
 
 {% highlight c++ %}
 
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <map>
+#include <vector>
+
+using namespace std;
+
 //c++ version
 
 void GroupAnagrams() {
