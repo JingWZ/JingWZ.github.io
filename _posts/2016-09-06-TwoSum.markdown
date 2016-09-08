@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Group Anagrams"
+date:   2016-09-06 20:30:00 +0800
+categories: arithmetic
+---
+
+
+Q:
+Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+
+You may assume that each input would have exactly one solution.
+
+Example:
+Given nums = [2, 7, 11, 15], target = 9,
+
+Because nums[0] + nums[1] = 2 + 7 = 9,
+return [0, 1].
+
+----------
+
+A:
+给定一个数组，求里面的两个元素的和等于给定值，返回这两个元素的索引。这一系列的求和有很多衍生版本，3Sum, 4Sum 等，基本思路都是一致的，通过排序后从左右逼近给定值。2Sum这个题还有个特殊解法，通过一个hash map，把元素值作为key，元素索引作为value存入，通过一次循环找出两个满足条件的值。这种方式的时间复杂度一般来说也是O(n)，ps：可能不同语言的hashmap，会导致不一样的时间复杂度
+
+
+{% highlight swift %}
+
+func twoSum(list:[Int], _ target: Int) -> [Int] {
+    var res = [Int]()
+    
+    if list.count != 0 {
+        let sortedList = list.sort()
+        let count = sortedList.count
+        
+        var i = 0
+        var j = count - 1
+        while i < j {
+            if sortedList[i] > target {
+                break
+            }
+            
+            let cur = sortedList[i] + sortedList[j]
+            if cur > target {
+                j -= 1
+            } else if cur < target {
+                i += 1
+            } else {
+                res.append(i)
+                res.append(j)
+                break
+            }
+        }
+    }
+    
+    return res;
+}
+
+{% endhighlight %}
+
+Check out the [C++ Codes][codes1].
+
+[codes1]: https://github.com/JingWZ/ArithmeticSorting/tree/master/TwoSum.playground
