@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Group Anagrams"
+title:  "2Sum"
 date:   2016-09-06 20:30:00 +0800
 categories: arithmetic
 ---
