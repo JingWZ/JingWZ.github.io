@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "ZReverse Integer"
+title:  "Reverse Integer"
 date:   2016-09-21 20:30:00 +0800
 categories: arithmetic
 ---
